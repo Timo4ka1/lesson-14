@@ -1,0 +1,188 @@
+.wrapper{
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+.header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: green;
+   border: solid;
+   border-color: greenyellow;
+   font-size: 24px;
+   color: white;
+   font-weight: 700;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+.header__golovna,
+.header__about-us,
+.header__cost{
+   border: solid yellow;
+   padding: 10px;
+   background-color: brown;
+   transition: 0.5s;
+}
+
+.header__golovna:hover,
+.header__about-us:hover,
+.header__cost:hover{
+   font-size: 20px;
+   padding: 15px;
+}
+
+.main{
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 auto;
+}
+
+.words{
+   background-color: brown;
+   border: solid;
+   border-color: black;
+   border-radius: 5px;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 50px;
+   margin-bottom: 20px;
+}
+
+.word1,
+.word2,
+.word3{
+   font-size: 22px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   background-color: violet;
+   border: dashed;
+   padding: 15px;
+   flex-basis: 70px;
+
+}
+
+.order-title{
+   display: flex;
+   font-size: 45px;
+   font-weight: 900;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+
+.order-list,
+.align-list{
+   padding: 20px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: red;
+   color: white;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 10px;
+   border: dashed;
+   border-color: black;
+   border-radius: 8px;
+   margin-bottom: 50px;
+   flex-wrap: wrap;
+   height: 100px;
+}
+
+.one{
+   order: 1;
+}
+
+.two{
+   order: 4;
+}
+
+.four{
+   order: 3;
+}
+
+.align-two{
+   border: double;
+   align-self: flex-end
+}
+
+.align-four{
+   border: double;
+   align-self: flex-start;
+}
+
+.preverstka{
+   margin-bottom: 150px;
+}
+
+.verstka{
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+}
+
+.verstka-title{
+   display: flex;
+   justify-content: center;
+}
+
+.text1, 
+.text2,
+.text3,
+.text4{
+   font-size: 20px;
+   background-color: coral;
+   color: white;
+   font-weight: 700;
+   display: flex;
+   flex: 1 1 50px;
+}
+
+.text1{
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+.text2{
+   justify-content: center;
+   align-items: center;
+}
+
+.text3{
+   flex-direction: column-reverse;
+   gap: 5px;
+}
+
+.text4--element{
+   display: flex;
+   border: solid 5px blue;
+   flex-direction: row;
+   gap: 40px;
+   justify-content: center;
+}
+
+.text4-var2{
+   flex-wrap: nowrap;
+   flex-basis: 20%;
+   flex-grow: 1;
+   flex-shrink: 0;
+}
+
+.footer{
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 auto;
+   padding: 30px;
+   text-align: center;
+   font-size: 40px;
+   text-transform: uppercase;
+}
